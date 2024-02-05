@@ -1,6 +1,8 @@
 # rainbowscores
 Ensure a happy mood when looking at your scores on smartschool
 
+![Screenshot of Rainbowscores in action](/art/example.png "Rainbowscores")
+
 ### Installation
 Due to age restrictions, I am not able to publish this extension on the Chrome web store and a manual installation is required.
 There are two ways of installing this extension:
