@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "Rainbowscores",
+    "description": "Gives your smartschool scores a colorful touch",
+    "author": "jasperdegus@gmail.com",
+    "version": "1.0",
+    "icons": {
+        "16": "./icons/icon16.png",
+        "48": "./icons/icon48.png",
+        "64": "./icons/icon64.png"
+    },
+    "host_permissions": [
+        "https://*.smartschool.be/results/main/*"
+      ],
+      "content_scripts": [
+        {
+          "matches": ["https://*.smartschool.be/results/main/*"],
+          "js": ["script.js"]
+        }
+      ]
+}
